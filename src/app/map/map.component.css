@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.map-column {
+  flex: 2.5;
+}
+
+.info-column {
+  flex: 1;
+}

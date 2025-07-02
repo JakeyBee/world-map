@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="map-column">
+    <h2>World Map</h2>
+    <object
+      data="assets/map-image.svg"
+      type="image/svg+xml"
+      class="svg-map"
+      (load)="initializeSVG($event)"
+    ></object>
+  </div>
+  <div class="info-column">
+    <h2>Country Detail</h2>
+    <p>
+      <strong>Name:</strong> {{ country?.name }} <br />
+      <strong>Capital:</strong> {{ country?.capital }} <br />
+      <strong>Region:</strong> {{ country?.region }} <br />
+      <strong>Income Level:</strong> {{ country?.incomeLevel }} <br />
+      <strong>Longitude:</strong> {{ country?.longitude }} <br />
+      <strong>Latitude:</strong> {{ country?.latitude }} <br />
+    </p>
+  </div>
+</div>
+
