@@ -1,7 +1,6 @@
 # World Map App
 
 # Student ID:
-    012048702
 
 # Angular Version:
     Angular CLI: 17.3.11
